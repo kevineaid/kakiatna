@@ -23,6 +23,7 @@ a:hover {
 }
 
 /* global class */
+/* proxima nova family */
 .pn-light {
 	font-family: "ProximaNova-Light";
 }
@@ -44,12 +45,16 @@ a:hover {
 .pn-medium {
 	font-family: "ProximaNova-Medium";
 }
+
+/* roboto family */
 .rb-bold {
 	font-family: "Roboto-Bold";
 }
 .rbc-bold {
 	font-family: "RobotoCondensed-Bold";
 }
+
+/* margin */
 .mb-10 {
 	margin-bottom: 10px;
 }
@@ -59,15 +64,16 @@ a:hover {
 .mb-50 {
 	margin-bottom: 50px;
 }
-
 .mt-30 {
 	margin-top: 30px;
 }
 
+/* padding */
 .pt-30 {
 	padding-top: 30px;
 }
 
+/* font-size */
 .fs-20 {
 	font-size: 20px;
 }
@@ -134,8 +140,8 @@ a:hover {
 	max-width: 20px;
 }
 
-/* hero */
 
+/* hero */
 @media screen and (max-width: 768px ) {
 	.slider .carousel,
 	.slider .carousel-inner,
@@ -484,13 +490,6 @@ a:hover {
 }
 
 
-/* banner */
-.banner {
-	padding-bottom: 200px;
-}
-.banner img {
-	max-width: 100%;
-}
 
 /* news */
 .news {
@@ -739,6 +738,8 @@ footer {
 	}
 }
 
+
+/* copyright */
 .copyright {
 	background: #151515;
 	text-align: center;
